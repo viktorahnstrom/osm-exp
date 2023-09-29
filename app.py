@@ -1,7 +1,7 @@
 import streamlit as st
 import random
-import pandas as pd
-import seaborn as sns
+#import pandas as pd
+#import seaborn as sns
 
 st.title("ab test, random assignment..")
 
