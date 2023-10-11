@@ -3,7 +3,9 @@ import random
 #import pandas as pd
 #import seaborn as sns
 
-st.title("ab test, random assignment..")
+st.title("open science methods, python")
+
+st.title("ab test, survey experiment")
 
 conditions = ["a", "b"]
 selected_condition = random.choice(conditions)
@@ -22,3 +24,14 @@ if genre == ':rainbow[Comedy]':
     st.write('You selected comedy.')
 else:
     st.write("You didn\'t select comedy.")
+
+
+st.write("check out this link: [osm-py](%s)" % "https://nils-holmberg.github.io/socs-qmd/web/osm-py/about.html")
+
+
+
+
+
+
+
+
