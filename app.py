@@ -5,7 +5,7 @@ import random
 
 st.title("open science methods, python")
 
-st.title("ab test, survey experiment")
+st.title("ab test, online survey experiment")
 
 conditions = ["a", "b"]
 selected_condition = random.choice(conditions)
