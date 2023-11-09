@@ -18,15 +18,15 @@ if selected_condition == "a":
 else:
     st.image("img/exps-stim-t.png")
 
-genre = st.radio(
-    "What's your favorite movie genre",
-    [":rainbow[Comedy]", "***Drama***", "Documentary :movie_camera:"],
-    captions = ["Laugh out loud.", "Get the popcorn.", "Never stop learning."], horizontal=True)
+rating = st.radio(
+    "please look at the advert and rate your attitude towards the product",
+    ["1", "2", "3", "4", "5"],
+    captions = ["strongly negative", "negative", "neither", "positive", "strongly positive"], horizontal=True)
 
-if genre == ':rainbow[Comedy]':
-    st.write('You selected comedy.')
+if rating == '3':
+    st.write('selected neither')
 else:
-    st.write("You didn\'t select comedy.")
+    st.write("negative or positive")
 
 
 st.write("check out this link: [osm-py](%s)" % "https://nils-holmberg.github.io/socs-qmd/web/osm-py/about.html")
