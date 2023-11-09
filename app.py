@@ -6,8 +6,9 @@ import random
 #st.title("open science methods, python")
 #st.title("ab test, online survey experiment")
 #st.header()
-st.subheader("open science methods, python")
-#st.text, and Markdown with st.markdown
+#st.subheader("open science methods, python")
+#st.text()
+st.markdown("open science methods, python")
 
 conditions = ["a", "b"]
 selected_condition = random.choice(conditions)
