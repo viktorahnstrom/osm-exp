@@ -23,10 +23,10 @@ rating = st.radio(
     ["1", "2", "3", "4", "5"],
     captions = ["strongly negative", "negative", "neither", "positive", "strongly positive"], horizontal=True)
 
-if rating == '3':
-    st.write('selected neither')
-else:
-    st.write("negative or positive")
+#if rating == '3':
+#    st.write('selected neither')
+#else:
+#    st.write("negative or positive")
 
 
 st.write("check out this link: [osm-py](%s)" % "https://nils-holmberg.github.io/socs-qmd/web/osm-py/about.html")
