@@ -35,10 +35,10 @@ with st.form("my_form"):
 #   checkbox_val = st.checkbox("Form checkbox")
     option_val = st.radio("please look at the advert and rate your attitude towards the product", ["1", "2", "3", "4", "5"], captions = ["strongly negative", "negative", "neither", "positive", "strongly positive"], horizontal=True)
 
-   # form must have a submit button.
-   submitted = st.form_submit_button("submit")
-   if submitted:
-       st.write("option", option_val)
+    # form must have a submit button.
+    submitted = st.form_submit_button("submit")
+    if submitted:
+        st.write("option", option_val)
 
 st.write("check out this link: [osm-py](%s)" % "https://nils-holmberg.github.io/socs-qmd/web/osm-py/about.html")
 
