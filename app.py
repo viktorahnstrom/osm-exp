@@ -20,7 +20,7 @@ else:
 
 form = st.form("some_form")
 
-rating = st.radio(
+option = form.radio(
     "please look at the advert and rate your attitude towards the product",
     ["1", "2", "3", "4", "5"],
     captions = ["strongly negative", "negative", "neither", "positive", "strongly positive"], horizontal=True)
