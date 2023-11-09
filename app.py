@@ -3,9 +3,11 @@ import random
 #import pandas as pd
 #import seaborn as sns
 
-st.title("open science methods, python")
-
+#st.title("open science methods, python")
 #st.title("ab test, online survey experiment")
+#st.header()
+st.subheader("open science methods, python")
+#st.text, and Markdown with st.markdown
 
 conditions = ["a", "b"]
 selected_condition = random.choice(conditions)
