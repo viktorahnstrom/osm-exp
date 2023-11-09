@@ -18,6 +18,8 @@ if selected_condition == "a":
 else:
     st.image("img/exps-stim-t.png")
 
+form = st.form("some_form")
+
 rating = st.radio(
     "please look at the advert and rate your attitude towards the product",
     ["1", "2", "3", "4", "5"],
