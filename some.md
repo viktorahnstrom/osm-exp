@@ -28,13 +28,13 @@ Som första steg i studien vill vi ställa frågor om dig och din bakgrund.
 
 ---
 
-# inoculation 1, forewarning
+# inoculation step 1: forewarning
 
 text about dei, equal opportunities in job market
 
 ---
 
-# inoculation 2, prebunking
+# inoculation step 2: prebunking
 
 image depicting discriminatory practices in job market 
 
