@@ -1,0 +1,11 @@
+Participant_ID	Age	Personality_Trait	Experimental_Condition	Perceived_Trust
+1	56	Low	Control	3
+3	32	High	Control	4
+5	25	Low	Control	5
+7	56	Low	Control	4
+9	40	Low	Control	4
+2	46	High	Treatment	5
+4	60	Low	Treatment	3
+6	38	Low	Treatment	2
+8	36	Low	Treatment	2
+10	28	High	Treatment	5
