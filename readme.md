@@ -3,7 +3,7 @@
 - data collection 
 - online survey exp
 - python streamlit
-- [exp website](https://github.com/nils-holmberg/osm-exp/web/tjs/)
+- [exp website](https://nils-holmberg.github.io/osm-exp/web/tjs/)
 
 ---
 
