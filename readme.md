@@ -1,9 +1,9 @@
 # open science methods, experiments
 
+- [google forms](https://nils-holmberg.github.io/osm-exp/web/tjs/)
+- [python streamlit](https://osm-exp.streamlit.app/)
 - data collection 
 - online survey exp
-- python streamlit
-- [exp website](https://nils-holmberg.github.io/osm-exp/web/tjs/)
 
 ---
 
