@@ -19,6 +19,13 @@ var cond = "b";
 }
 var cond_url = "https://nils-holmberg.github.io/osm-exp/web/tjs/cond-"+cond+".html";
 //var cond_url = "cond-"+cond+".html";
+
+// Dynamically construct the cond_url
+var currentUrl = window.location.href;
+var hostname = new URL(currentUrl).hostname;
+var firstDirectory = currentUrl.split("/")[3]; // Assuming the first directory is at index 3
+var cond_url = "https://" + hostname + "/" + firstDirectory + "/cond-" + cond + ".html";
+
 var cond_onc = "location.href='"+cond_url+"';";
 </script>
 
